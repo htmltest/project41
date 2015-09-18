@@ -1227,3 +1227,49 @@ table.contacts-table {
   float:left;
 	margin:0 10px;
 }
+
+.ship-tabs {margin:-2px 0 0 0; padding:0; list-style:none}
+.ship-tabs li {float:left; margin:0 10px 0 0; padding:0; background:none}
+.ship-tabs li a {display:block; font-size:15px; line-height:36px; text-transform:uppercase; padding:0 30px; border:2px solid #e5eff5}
+.ship-tabs li.active a {text-decoration:none; background:#e5eff5; font-size:20px; font-weight:bold}
+
+.ship-item {display:none}
+.ship-item.active {display:block}
+
+.ship-gallery {position:relative; margin:20px -170px 0 -170px; height:520px; font-size:0; letter-spacing:-1px; line-height:0}
+.ship-gallery-content {position:relative; margin:0; padding:0; list-style:none; width:1280px; height:520px}
+.ship-gallery-content li {position:absolute; left:0; top:0; width:100%; height:100%; background:none; margin:0; padding:0}
+.ship-gallery-content li:first-child {z-index:2}
+.ship-gallery-preview {position:absolute; left:0; bottom:-40px; width:100%; z-index:3; text-align:center}
+.ship-gallery-preview ul {display:inline-block; vertical-align:top; margin:0; padding:0; list-style:none; background:#fff; padding:20px 20px 0 20px}
+.ship-gallery-preview ul li {float:left; margin:0; padding:0 0 0 14px; background:none}
+.ship-gallery-preview ul li:first-child {padding:0}
+.ship-gallery-preview ul li a {display:block; width:140px; height:80px; border:3px solid #fff; position:relative; overflow:hidden}
+.ship-gallery-preview ul li.active a {border:3px solid #09f}
+
+.ship-info {padding:26px 0 0 0}
+
+.ship-schedule {float:left; width:400px}
+
+.ship-descr {float:right; width:400px}
+
+.ship-scheme {margin:24px 0}
+.ship-scheme-img {line-height:0; text-align:center}
+.ship-scheme-title {font-size:12px; line-height:34px; color:#fff; text-transform:uppercase; text-align:center}
+.ship-scheme-title span {display:inline-block; vertical-align:top; height:34px; background:#005e9d; padding:0 20px}
+
+.page-content .ship-schedule tr {background:none}
+.ship-schedule-btn-bron {float:left; padding-top:22px}
+.ship-schedule-btn-place {float:right; padding-top:22px}
+.ship-schedule-btn-place .button-ico {padding:0 27px 0 48px}
+.ship-schedule-btn-place .button-ico:before {left:27px}
+
+.ship-descr-list {display:table; width:100%; font-size:14px; line-height:20px; border-top:2px solid #09f; border-bottom:2px solid #09f; margin:29px 0 27px 0}
+.ship-descr-row {display:table-row}
+.ship-descr-name {display:table-cell; width:100%; vertical-align:top; padding:10px 0; border-top:1px solid #ebebeb}
+.ship-descr-value {display:table-cell; white-space:nowrap; max-width:50%; vertical-align:top; padding:10px 0; font-weight:bold; border-top:1px solid #ebebeb}
+.ship-descr-row:first-child .ship-descr-name,
+.ship-descr-row:first-child .ship-descr-value {border-top:none}
+.button-ico-doc {padding:0; text-align:center; width:100%}
+.button-ico-doc:before {content:""; position:relative; left:auto; top:auto; display:inline-block; vertical-align:middle; width:14px; height:18px; background:url(../images/button-ico-doc.png); margin:-4px 15px 0 0}
+.button-ico-doc span {color:#000}
